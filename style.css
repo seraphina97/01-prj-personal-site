@@ -1,13 +1,28 @@
-body{
-  padding: 0px;
+section{
+  padding: 10px;
   margin: 0px;
+}
+div{
+  margin: 0px;
+  padding: 0px;
 }
 ul li{
   list-style: none;
 }
+h1, h2{
+  margin-top: 0px;
+  padding-top: 10px;
+}
 section.header{
   background-color: #BDE0FE;
   text-align: center;
+}
+section.header p{
+  margin-bottom: 0px;
+}
+section.header img{
+  width: 120px;
+  height: 140px;
 }
 section.skill{
   background-color: #A2D2FF;
@@ -36,17 +51,22 @@ section.shows{
   width: 100px;
   height: 100px;
 }
-.skills-images img {
-  width: 50px;      /* Makes all images the same size */
-  margin: 5px;      /* Adds space between images */
-  vertical-align: middle; /* Keeps images aligned */
-}
 section.contact{
   background-color: #FFC8DD;
   text-align: center;
 }
+.contact-section{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.contact img{
+  width: 100px;
+  height: 100px;
+}
 section.footer{
   background-color: #FFAFCC;
   text-align: center;
+  padding: 0px;
 }
 
