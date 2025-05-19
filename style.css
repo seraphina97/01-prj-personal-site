@@ -1,1 +1,52 @@
-/* Add you CSS here */
+body{
+  padding: 0px;
+  margin: 0px;
+}
+ul li{
+  list-style: none;
+}
+section.header{
+  background-color: #BDE0FE;
+  text-align: center;
+}
+section.skill{
+  background-color: #A2D2FF;
+  text-align: center;
+}
+.skills{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+section.shows{
+  background-color: #CDB4DB;
+  text-align: center;
+  flex: auto
+}
+.favoriteShows{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.favoriteShows img{
+  width: 100px;
+  height: 100px;
+}
+.skills img{
+  width: 100px;
+  height: 100px;
+}
+.skills-images img {
+  width: 50px;      /* Makes all images the same size */
+  margin: 5px;      /* Adds space between images */
+  vertical-align: middle; /* Keeps images aligned */
+}
+section.contact{
+  background-color: #FFC8DD;
+  text-align: center;
+}
+section.footer{
+  background-color: #FFAFCC;
+  text-align: center;
+}
+
